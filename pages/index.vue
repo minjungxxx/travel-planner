@@ -1,15 +1,17 @@
 <template>
 	<div>
-		<map-container/>
+		<search-bar/>
+		<google-map/>
 		<planner-card/>
 	</div>
 </template>
 
 <script>
-import MapContainer from '~/components/MapContainer.vue'
+import GoogleMap from '~/components/GoogleMap.vue'
 import PlannerCard from '~/components/PlannerCard.vue'
+import SearchBar from '~/components/SearchBar.vue'
 export default {
-  components: { PlannerCard, MapContainer },
+  components: { PlannerCard, GoogleMap, SearchBar },
   name: 'IndexPage',
 }
 </script>

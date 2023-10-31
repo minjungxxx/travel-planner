@@ -1,12 +1,10 @@
 <template>
-	<div>
-		This is map container
-	</div>
+  <input class="place-search-input" />
 </template>
 
 <script>
 export default {
-	name: 'MapContainer'
+  name: 'SearchBar'
 }
 </script>
 
